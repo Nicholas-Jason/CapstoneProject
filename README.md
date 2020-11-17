@@ -1,9 +1,9 @@
 # CapstoneProject
 
-#Description
+# Description
 You work at XYZ solutions as a MEAN stack developer. Due to the Covid-19 situation every business is becoming online. You are asked by your management to lead and develop a dynamic website for online purchase of medicines.
 
-#Requirements
+# Requirements
 
 Create a rich frontend
 Create admin and user portals
