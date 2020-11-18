@@ -1,0 +1,9 @@
+<div>
+    <h1>Delete Item</h1>
+    <label>Item ID</label>
+    <input type="text" #ItemId/>
+    <input type="button" value="Delete Item" 
+    (click)="deleteItem(ItemId.value)"/>
+    <br/>
+    {{result}}
+</div>
