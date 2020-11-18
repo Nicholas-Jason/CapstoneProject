@@ -1,0 +1,16 @@
+<div>
+    <h1>Store Item in Database</h1>
+    <form [formGroup]="ItemRef" (ngSubmit)="addItemDetails()">
+        <label>Item Id </label>
+        <input type="text" formControlName="_id"/><br/>
+        <label>Item Name </label>
+        <input type="text" formControlName="iname"/><br/>
+        <label>Item Price </label>
+        <input type="text" formControlName="price"/><br/>
+        <label>Item Image </label>
+        <input type="text" formControlName="image"/><br/>
+        <label>Company </label>
+        <input type="text" formControlName="Company"/><br/>
+        <input type="submit" value="Store Item"/>
+    </form>
+</div>
