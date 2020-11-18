@@ -1,0 +1,23 @@
+<div>
+    <h1>Items in Database</h1>
+    <input type="button" value="Load Item Details" (click)="loadItemInfo()"/>
+    <div *ngIf="flag">
+        <table border="1">
+            <tr>
+                <th>Item Id</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+                <th></th>
+                <th>Company</th>
+            </tr>
+            <tr *ngFor="let ii of items">
+                <td>{{ii._id}}</td>
+                <td>{{ii.iname}}</td>
+                <td>{{ii.price}}</td>
+                <td><img src={{ii.image}}></td>
+                <td>{{ii.Company}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
